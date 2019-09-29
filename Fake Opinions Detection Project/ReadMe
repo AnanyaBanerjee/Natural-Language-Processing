@@ -1,0 +1,14 @@
+This project detects Fake Opnions and uses NYC Yelp Dataset.
+
+The citations for that are mentioned in the document "Steps of Project".
+
+The two datasets that we use are:
+reviewContent.csv and metadata.csv
+
+We first run Pj.py which merges these two datasets and produces "Reviews.csv".
+
+We next run Proj_Preprocessing.py which pre-processes our dataset which generates a dataset "pre_processed.csv".
+
+We then run Bow.py which does the rest and gives final results.
+
+Thanks!
