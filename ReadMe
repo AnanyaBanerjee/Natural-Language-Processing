@@ -1,24 +1,12 @@
+Welcome to my Natural Language Processing Projects!
+
+The current projects in this repository are:
+
 Toxicity Detection
+Fake Opinion Detectopm
 
-You are provided with a large number of Wikipedia comments which have been labeled by human raters for toxic behaviour. The types of toxicity are:
+Each Project will contain a readme, documentation file, source code and dataset used.
 
-    1. toxic
-    2. severe_toxic
-    3. obscene
-    4. threat
-    5. insult
-    6. identity_hate
+More projects are coming soon!
 
-Tasks to be accomplished
-
-1. Perform a descriptive statistical analysis over the data and make surprising inferences.
-2. Create models which predict a probability of each type of toxicity for each comment.
-3. Design and explain the data science pipeline followed in this task involving Data preprocessing, Data Analysis, Feature Engineering, and Model evaluation. 
-
-File descriptions
-
-train.csv - the training set, contains comments with their binary labels
-test.csv - the test set, you must predict the toxicity probabilities for these comments. To deter hand labeling, the test set contains some comments which are not included in the scoring.
-sample_submission.csv - a sample submission file in the correct format
-test_labels.csv - labels for the test data; value of -1 indicates it was not used for scoring; (Note: file added after competition close!)
-
+Thanks!
