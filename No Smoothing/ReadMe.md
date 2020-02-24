@@ -10,22 +10,23 @@
 
 **Command:** This program runs Program 1 which implements No Smoothing
 
-python3 homework2_AnanyaBanerjee.py no_smoothing
+> python3 homework2_AnanyaBanerjee.py no_smoothing
 
 The probability for given sentence is printed on console output.
 
 ### Program 1:
 
 **File:** no_smoothing.py
+
 Running this file generates: 
 
-**File 1:** "bigrams_no_smoothing.csv” contains the bigrams and their corresponding probabilities
+- **File 1:** "bigrams_no_smoothing.csv” contains the bigrams and their corresponding probabilities
 
-**File 2:** "unigrams_no_smoothing.csv" contains the unigrams and their corresponding probabilities
+- **File 2:** "unigrams_no_smoothing.csv" contains the unigrams and their corresponding probabilities
 
-**File 3:** "counts_unigram_no_smoothing.csv" contains the unigrams and their corresponding counts in given corpus
+- **File 3:** "counts_unigram_no_smoothing.csv" contains the unigrams and their corresponding counts in given corpus
 
-**File 4:** "counts_bigram_no_smoothing.csv" contains the bigrams and their corresponding counts in given corpus
+- **File 4:** "counts_bigram_no_smoothing.csv" contains the bigrams and their corresponding counts in given corpus
 
 You can open any of these files to have a look at the results.
 
@@ -44,7 +45,7 @@ My calculations of the given sentence “The standard Turbo engine is hard to wo
 
 **No Smoothing:**
 
-bigram : ['the', 'standard']  
+*bigram : ['the', 'standard'\]* 
 
 Count(['the', 'standard'])=3
 Count([‘the’])=3676
@@ -54,7 +55,7 @@ Prob1 = Count(['the', 'standard']) / Count([‘the’])
            =  0.0008 (approx.)
            
 
-bigram : ['standard', 'turbo']   
+*bigram : ['standard', 'turbo'\]* 
 
 Count(['standard', 'turbo'] )=2
 Count([‘standard’])=10
@@ -65,7 +66,7 @@ Prob2 = Count(['standard', 'turbo'] ) / Count([‘standard’])
 
 
 
-bigram : ['turbo', 'engine']   
+*bigram : ['turbo', 'engine'\]*  
 
 Count(['turbo', 'engine'])=0
 Count([‘turbo’])=2
@@ -73,7 +74,7 @@ Prob3 = Count(['turbo', 'engine']) / Count([‘turbo’])
            = (0)/ (2)
            = 0
 
-bigram : ['engine', 'is']   
+*bigram : ['engine', 'is'\]* 
 
 Count(['engine', 'is'])=0
 Count([‘engine’])=17
@@ -82,7 +83,7 @@ Prob4 = Count(['engine', 'is'])  / Count([‘engine’])
            = 0
 
 
-bigram : ['is', 'hard']   
+*bigram : ['is', 'hard'\]* 
 
 Count(['is', 'hard'])=0
 Count([‘is’])=447
@@ -93,7 +94,7 @@ Prob5 = Count(['is', 'hard'])  / Count([‘is’])
 
 
 
-bigram : ['hard', 'to']   
+*bigram : ['hard', 'to'\]* 
 
 
 Count(['hard', 'to'])=3
@@ -103,7 +104,7 @@ Prob6 = Count(['hard', 'to']) / Count([‘hard’])
            = 0.75
 
 
-bigram : ['to', 'work']   
+*bigram : ['to', 'work'\]* 
 
 Count(['to', 'work'])=7
 Count([‘to’])= 1551
