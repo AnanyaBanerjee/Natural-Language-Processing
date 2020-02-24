@@ -10,7 +10,7 @@
 
 **Command:**: This program runs Program 3 which implements Good Turing Discounting
 
-> python3 homework2_AnanyaBanerjee.py good_turing_discounting           
+> python3 program_AnanyaBanerjee.py good_turing_discounting           
 
 
 ### Program 2:
