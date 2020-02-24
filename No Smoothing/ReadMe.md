@@ -10,7 +10,7 @@
 
 **Command:** This program runs Program 1 which implements No Smoothing
 
-> python3 homework2_AnanyaBanerjee.py no_smoothing
+> python3 program_AnanyaBanerjee.py no_smoothing
 
 The probability for given sentence is printed on console output.
 
