@@ -10,7 +10,7 @@
 
 **Command:** Command : This program runs Program 2 which implements Add One Smoothing
 
-> python3 homework2_AnanyaBanerjee.py add_one_smoothing
+> python3 program_AnanyaBanerjee.py add_one_smoothing
 
 
 ### Program 2:
