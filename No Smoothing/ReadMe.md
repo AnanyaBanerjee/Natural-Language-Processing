@@ -45,7 +45,9 @@ My calculations of the given sentence “The standard Turbo engine is hard to wo
 
 **No Smoothing:**
 
+<pre>
 *bigram : ['the', 'standard'\]* 
+
 
 Count(['the', 'standard'])=3
 
@@ -53,8 +55,9 @@ Count([‘the’])=3676
 
 Prob1 = Count(['the', 'standard']) / Count([‘the’])
 
-           
+</pre>         
 
+<pre>
 *bigram : ['standard', 'turbo'\]* 
 
 Count(['standard', 'turbo'] )=2
@@ -64,10 +67,10 @@ Count([‘standard’])=10
 Prob2 = Count(['standard', 'turbo'] ) / Count([‘standard’]) 
 
            
+</pre>
 
 
-
-
+<pre>
 *bigram : ['turbo', 'engine'\]*  
 
 Count(['turbo', 'engine'])=0
@@ -75,9 +78,9 @@ Count(['turbo', 'engine'])=0
 Count([‘turbo’])=2
 
 Prob3 = Count(['turbo', 'engine']) / Count([‘turbo’]) 
+</pre>         
 
-           
-
+<pre>
 *bigram : ['engine', 'is'\]* 
 
 Count(['engine', 'is'])=0
@@ -85,9 +88,9 @@ Count(['engine', 'is'])=0
 Count([‘engine’])=17
 
 Prob4 = Count(['engine', 'is'])  / Count([‘engine’]) 
+</pre>
 
-
-
+<pre>
 *bigram : ['is', 'hard'\]* 
 
 Count(['is', 'hard'])=0
@@ -95,12 +98,12 @@ Count(['is', 'hard'])=0
 Count([‘is’])=447
 
 Prob5 = Count(['is', 'hard'])  / Count([‘is’]) 
-
+</pre>
            
 
 
 
-
+<pre>
 *bigram : ['hard', 'to'\]* 
 
 Count(['hard', 'to'])=3
@@ -108,10 +111,10 @@ Count(['hard', 'to'])=3
 Count([‘hard’])= 4
 
 Prob6 = Count(['hard', 'to']) / Count([‘hard’]) 
-
+</pre>
           
 
-
+<pre>
 *bigram : ['to', 'work'\]* 
 
 Count(['to', 'work'])=7
@@ -119,12 +122,12 @@ Count(['to', 'work'])=7
 Count([‘to’])= 1551
 
 Prob7 = Count(['to', 'work']) / Count([‘to’])
-
+</pre>
           
 
 
-
+<pre>
 Prob= prob1\*prob2\*prob3\*prob4\*prob5\*prob6\*prob7
-
+</pre>
 
 
