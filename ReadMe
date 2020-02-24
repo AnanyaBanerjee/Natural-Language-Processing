@@ -3,7 +3,10 @@ Welcome to my Natural Language Processing Projects!
 The current projects in this repository are:
 
 Toxicity Detection
-Fake Opinion Detectopm
+Fake Opinion Detection
+No Smoothing application
+Add One Smoothing application
+Good Turing Discounting application
 
 Each Project will contain a readme, documentation file, source code and dataset used.
 
