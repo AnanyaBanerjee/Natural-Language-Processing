@@ -127,7 +127,7 @@ Prob7 = Count(['to', 'work']) / Count([‘to’])
 
 
 <pre>
-Prob= prob1\*prob2\*prob3\*prob4\*prob5\*prob6\*prob7
+Prob= prob1 * prob2 * prob3 * prob4 * prob5 * prob6 * prob7
 </pre>
 
 
