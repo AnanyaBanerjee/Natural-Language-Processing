@@ -53,9 +53,6 @@ Count([‘the’])=3676
 
 Prob1 = Count(['the', 'standard']) / Count([‘the’])
 
-      = 3/ (3676)
-      
-      =  0.0008 (approx.)
            
 
 *bigram : ['standard', 'turbo'\]* 
@@ -66,9 +63,7 @@ Count([‘standard’])=10
 
 Prob2 = Count(['standard', 'turbo'] ) / Count([‘standard’]) 
 
-           = (2)/ (10)
            
-            = 0.2 (approx.)
 
 
 
@@ -81,9 +76,7 @@ Count([‘turbo’])=2
 
 Prob3 = Count(['turbo', 'engine']) / Count([‘turbo’]) 
 
-           = (0)/ (2)
            
-           = 0
 
 *bigram : ['engine', 'is'\]* 
 
@@ -93,9 +86,6 @@ Count([‘engine’])=17
 
 Prob4 = Count(['engine', 'is'])  / Count([‘engine’]) 
 
-           = (0)/ (17)
-           
-           = 0
 
 
 *bigram : ['is', 'hard'\]* 
@@ -106,9 +96,7 @@ Count([‘is’])=447
 
 Prob5 = Count(['is', 'hard'])  / Count([‘is’]) 
 
-           = (0)/ (447)
            
-           = 0
 
 
 
@@ -121,9 +109,7 @@ Count([‘hard’])= 4
 
 Prob6 = Count(['hard', 'to']) / Count([‘hard’]) 
 
-           = (3)/ (4)
-           
-           = 0.75
+          
 
 
 *bigram : ['to', 'work'\]* 
@@ -134,16 +120,11 @@ Count([‘to’])= 1551
 
 Prob7 = Count(['to', 'work']) / Count([‘to’])
 
-           = (7)/ (1551)
-           
-           = 0.0045 (approx.)
+          
 
 
 
-Prob= prob1*prob2*prob3*prob4*prob5*prob6*prob7
+Prob= prob1\*prob2\*prob3\*prob4\*prob5\*prob6\*prob7
 
-Prob= 0.2*0.0008 *0*0*0*0.75*0.0045
-
-       =0
 
 
