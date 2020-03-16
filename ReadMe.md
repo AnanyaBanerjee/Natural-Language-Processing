@@ -2,19 +2,19 @@
 
 The current projects in this repository are:
 
-**Toxicity Detection**
+- **Toxicity Detection**
 
-**Fake Opinion Detection**
+- **Fake Opinion Detection**
 
-**No Smoothing application**
+- **No Smoothing application**
 
-**Add One Smoothing application**
+- **Add One Smoothing application**
 
-**Good Turing Discounting application**
+- **Good Turing Discounting application**
 
-**POS Tagging with Naive Bayes**
+- **POS Tagging with Naive Bayes**
 
-**POS Tagging with Viterbi Algorithm**
+- **POS Tagging with Viterbi Algorithm**
 
 Each Project will contain a readme, documentation file, source code and dataset used.
 
