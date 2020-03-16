@@ -5,7 +5,6 @@ Created on Fri Feb 28 13:14:07 2020
 
 @author: ananyabanerjee
 
-NLP Assignment 3
 
 POS Tagging with Naive Bayes
 """
