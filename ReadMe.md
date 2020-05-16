@@ -2,6 +2,8 @@
 
 The current projects in this repository are:
 
+- **Information Extraction (Using Semi Supervised and Rule Based Approach) **
+
 - **Toxicity Detection**
 
 - **Fake Opinion Detection**
